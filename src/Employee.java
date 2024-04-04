@@ -63,4 +63,12 @@ public class Employee {
                 ", id=" + id +
                 '}';
     }
+
+    public String toStringWithoutDep() {
+        return "Employee{" +
+                "fio='" + fio + '\'' +
+                ", salary=" + salary +
+                ", id=" + id +
+                '}';
+    }
 }
